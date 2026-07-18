@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Cybersecurity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+
+  <nav class="nav">
+    <div class="nav-brand">🛡️ <span class="accent">Cyber</span>Sec</div>
+    <div class="nav-links">
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contact">Контакты</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">🔐 Cybersecurity Enthusiast</div>
+        <h1 class="hero-title">Привет, я<br><span class="gradient-text" id="typed"></span><span class="cursor">|</span></h1>
+        <p class="hero-desc">Изучаю кибербезопасность, пентест и защиту систем.<br>Sysadmin background. Создаю инструменты для безопасности.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary"><span class="btn-glow"></span>Мои проекты</a>
+          <a href="#contact" class="btn btn-outline">Связаться</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="shield">
+          <div class="shield-ring ring-1"></div>
+          <div class="shield-ring ring-2"></div>
+          <div class="shield-ring ring-3"></div>
+          <div class="shield-icon">🛡️</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-badge">👤 О себе</div>
+      <h2 class="section-title">Обо мне</h2>
+      <div class="about-grid">
+        <div class="about-card glass">
+          <p>21 год, Беларусь. Опыт в системном администрировании. Прошёл курсы по IT, участвовал в конкурсе среди джунов.</p>
+          <p>Интересуюсь пентестом, анализом уязвимостей и защитой от кибератак. Практикуюсь в TryHackMe, использую sandbox-инструменты.</p>
+          <p>Создал CipherVault и CyberLearn — оба проекта open source.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card glass"><div class="stat-icon">⏱</div><div class="stat-value">2+</div><div class="stat-label">Года в IT</div></div>
+          <div class="stat-card glass"><div class="stat-icon">🚀</div><div class="stat-value">2</div><div class="stat-label">Проекта</div></div>
+          <div class="stat-card glass"><div class="stat-icon">📚</div><div class="stat-value">50+</div><div class="stat-label">Уроков создано</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-badge">🛠️ Экспертиза</div>
+      <h2 class="section-title">Навыки и инструменты</h2>
+      <div class="skills-grid">
+        <div class="skill-card glass"><div class="skill-icon">🔒</div><h3>Безопасность</h3><div class="skill-tags"><span>SQL Injection</span><span>XSS</span><span>Соц. инженерия</span><span>Анализ уязвимостей</span></div></div>
+        <div class="skill-card glass"><div class="skill-icon">🛠️</div><h3>Инструменты</h3><div class="skill-tags"><span>Nmap</span><span>Any.Run</span><span>Sandboxie</span><span>Mullvad</span></div></div>
+        <div class="skill-card glass"><div class="skill-icon">💻</div><h3>Технологии</h3><div class="skill-tags"><span>Linux</span><span>Python</span><span>Electron</span><span>React</span></div></div>
+        <div class="skill-card glass"><div class="skill-icon">🔐</div><h3>Шифрование</h3><div class="skill-tags"><span>AES-256</span><span>PBKDF2</span><span>TLS/SSL</span><span>PKI</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-badge">💼 Портфолио</div>
+      <h2 class="section-title">Проекты</h2>
+      <div class="projects-grid">
+        <div class="project-card glass">
+          <div class="project-header"><span class="project-icon">🔐</span><span class="project-badge">Open Source</span></div>
+          <h3>CipherVault</h3>
+          <p>Менеджер паролей с AES-256-GCM шифрованием. Автообновления, код-подпись, 106 тестов.</p>
+          <div class="project-tags"><span>Electron</span><span>React</span><span>TypeScript</span><span>AES-256</span></div>
+          <a href="https://github.com/vipecoder228/CipherVault" class="project-link" target="_blank">GitHub →</a>
+        </div>
+        <div class="project-card glass">
+          <div class="project-header"><span class="project-icon">🛡️</span><span class="project-badge">Обучение</span></div>
+          <h3>CyberLearn</h3>
+          <p>Платформа обучения кибербезе. 50 уроков, интерактивные лабы (SQLi, XSS, терминал).</p>
+          <div class="project-tags"><span>Electron</span><span>React</span><span>50 уроков</span><span>10 лаб</span></div>
+          <a href="#" class="project-link">Локальный проект →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-badge">📬 Связь</div>
+      <h2 class="section-title">Контакты</h2>
+      <div class="contact-grid">
+        <a href="https://github.com/vipecoder228" class="contact-card glass" target="_blank"><span class="contact-icon">💻</span><span>GitHub</span><span class="contact-arrow">→</span></a>
+        <a href="https://t.me/" class="contact-card glass" target="_blank"><span class="contact-icon">📨</span><span>Telegram</span><span class="contact-arrow">→</span></a>
+        <a href="mailto:your@email.com" class="contact-card glass"><span class="contact-icon">📧</span><span>Email</span><span class="contact-arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><p>© 2026 • Сделано с ❤️ и ☕</p></footer>
+
+  <script>
+    const texts = ['[Твоё имя]', 'Security Researcher', 'Pentester', 'Bug Hunter'];
+    let ti = 0, ci = 0, del = false;
+    const typed = document.getElementById('typed');
+    function type() {
+      const t = texts[ti];
+      typed.textContent = del ? t.slice(0, ci--) : t.slice(0, ci++);
+      if (!del && ci > t.length) setTimeout(() => del = true, 2000);
+      else if (del && ci < 0) { del = false; ti = (ti + 1) % texts.length; }
+      setTimeout(type, del ? 50 : 100);
+    }
+    type();
+    const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.1 });
+    document.querySelectorAll('.glass').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>
