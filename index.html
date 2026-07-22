@@ -23,9 +23,9 @@
   <section class="hero">
     <div class="container">
       <div class="hero-content">
-        <div class="hero-badge">🔐 Cybersecurity Enthusiast</div>
+        <div class="hero-badge">🔐 Разработчик систем безопасности</div>
         <h1 class="hero-title">Привет, я<br><span class="gradient-text" id="typed"></span><span class="cursor">|</span></h1>
-        <p class="hero-desc">Изучаю кибербезопасность, пентест и защиту систем.<br>Sysadmin background. Создаю инструменты для безопасности.</p>
+        <p class="hero-desc">Создаю инструменты, которые защищают.<br>Код должен защищать, а не взламывать.</p>
         <div class="hero-buttons">
           <a href="#projects" class="btn btn-primary"><span class="btn-glow"></span>Мои проекты</a>
           <a href="#contact" class="btn btn-outline">Связаться</a>
@@ -50,11 +50,11 @@
         <div class="about-card glass">
           <p>21 год, Беларусь. Опыт в системном администрировании. Прошёл курсы по IT, участвовал в конкурсе среди джунов.</p>
           <p>Интересуюсь пентестом, анализом уязвимостей и защитой от кибератак. Практикуюсь в TryHackMe, использую sandbox-инструменты.</p>
-          <p>Создал CipherVault и CyberLearn — оба проекта open source.</p>
+          <p>Создал CipherVault, ExamPro и NeonQuest — все проекты open source.</p>
         </div>
         <div class="about-stats">
           <div class="stat-card glass"><div class="stat-icon">⏱</div><div class="stat-value">2+</div><div class="stat-label">Года в IT</div></div>
-          <div class="stat-card glass"><div class="stat-icon">🚀</div><div class="stat-value">2</div><div class="stat-label">Проекта</div></div>
+          <div class="stat-card glass"><div class="stat-icon">🚀</div><div class="stat-value">3</div><div class="stat-label">Проекта</div></div>
           <div class="stat-card glass"><div class="stat-icon">📚</div><div class="stat-value">50+</div><div class="stat-label">Уроков создано</div></div>
         </div>
       </div>
@@ -66,10 +66,10 @@
       <div class="section-badge">🛠️ Экспертиза</div>
       <h2 class="section-title">Навыки и инструменты</h2>
       <div class="skills-grid">
-        <div class="skill-card glass"><div class="skill-icon">🔒</div><h3>Безопасность</h3><div class="skill-tags"><span>SQL Injection</span><span>XSS</span><span>Соц. инженерия</span><span>Анализ уязвимостей</span></div></div>
-        <div class="skill-card glass"><div class="skill-icon">🛠️</div><h3>Инструменты</h3><div class="skill-tags"><span>Nmap</span><span>Any.Run</span><span>Sandboxie</span><span>Mullvad</span></div></div>
-        <div class="skill-card glass"><div class="skill-icon">💻</div><h3>Технологии</h3><div class="skill-tags"><span>Linux</span><span>Python</span><span>Electron</span><span>React</span></div></div>
-        <div class="skill-card glass"><div class="skill-icon">🔐</div><h3>Шифрование</h3><div class="skill-tags"><span>AES-256</span><span>PBKDF2</span><span>TLS/SSL</span><span>PKI</span></div></div>
+        <div class="skill-card glass"><div class="skill-icon">💻</div><h3>Языки</h3><div class="skill-tags"><span>TypeScript</span><span>JavaScript</span></div></div>
+        <div class="skill-card glass"><div class="skill-icon">🖥️</div><h3>Фронтенд</h3><div class="skill-tags"><span>React</span><span>Tailwind CSS</span><span>Electron</span></div></div>
+        <div class="skill-card glass"><div class="skill-icon">📱</div><h3>Мобильное</h3><div class="skill-tags"><span>Capacitor</span><span>Android</span></div></div>
+        <div class="skill-card glass"><div class="skill-icon">🔐</div><h3>Крипто и БД</h3><div class="skill-tags"><span>AES-256-GCM</span><span>PBKDF2</span><span>SQLite</span><span>Zustand</span></div></div>
       </div>
     </div>
   </section>
@@ -82,16 +82,23 @@
         <div class="project-card glass">
           <div class="project-header"><span class="project-icon">🔐</span><span class="project-badge">Open Source</span></div>
           <h3>CipherVault</h3>
-          <p>Менеджер паролей с AES-256-GCM шифрованием. Автообновления, код-подпись, 106 тестов.</p>
-          <div class="project-tags"><span>Electron</span><span>React</span><span>TypeScript</span><span>AES-256</span></div>
+          <p>Менеджер паролей с шифрованием AES-256-GCM. TOTP 2FA, код принуждения, расширение браузера, Android.</p>
+          <div class="project-tags"><span>Electron</span><span>React</span><span>TypeScript</span><span>AES-256</span><span>300 тестов</span></div>
           <a href="https://github.com/vipecoder228/CipherVault" class="project-link" target="_blank">GitHub →</a>
         </div>
         <div class="project-card glass">
-          <div class="project-header"><span class="project-icon">🛡️</span><span class="project-badge">Обучение</span></div>
-          <h3>CyberLearn</h3>
-          <p>Платформа обучения кибербезе. 50 уроков, интерактивные лабы (SQLi, XSS, терминал).</p>
-          <div class="project-tags"><span>Electron</span><span>React</span><span>50 уроков</span><span>10 лаб</span></div>
-          <a href="#" class="project-link">Локальный проект →</a>
+          <div class="project-header"><span class="project-icon">📝</span><span class="project-badge">Обучение</span></div>
+          <h3>ExamPro</h3>
+          <p>Платформа подготовки к ЕГЭ и ОГЭ. Интерактивные тесты, прогресс обучения, таймер экзамена.</p>
+          <div class="project-tags"><span>TypeScript</span><span>React</span></div>
+          <a href="https://github.com/vipecoder228/exampro" class="project-link" target="_blank">GitHub →</a>
+        </div>
+        <div class="project-card glass">
+          <div class="project-header"><span class="project-icon">🎮</span><span class="project-badge">Геймификация</span></div>
+          <h3>NeonQuest</h3>
+          <p>Киберпанк трекер привычек в стиле RPG. Геймификация, киберпанк эстетика.</p>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a href="https://github.com/vipecoder228/NeonQuest" class="project-link" target="_blank">GitHub →</a>
         </div>
       </div>
     </div>
@@ -103,7 +110,7 @@
       <h2 class="section-title">Контакты</h2>
       <div class="contact-grid">
         <a href="https://github.com/vipecoder228" class="contact-card glass" target="_blank"><span class="contact-icon">💻</span><span>GitHub</span><span class="contact-arrow">→</span></a>
-        <a href="https://t.me/fsociety_coding" class="contact-card glass" target="_blank"><span class="contact-icon">📨</span><span>@fsociety_coding</span><span class="contact-arrow">→</span></a>
+        <a href="https://t.me/idkitsmyapp" class="contact-card glass" target="_blank"><span class="contact-icon">📨</span><span>@idkitsmyapp</span><span class="contact-arrow">→</span></a>
         <a href="mailto:fsicietycoder@atomicmail.io" class="contact-card glass"><span class="contact-icon">📧</span><span>fsicietycoder@atomicmail.io</span><span class="contact-arrow">→</span></a>
       </div>
     </div>
@@ -112,7 +119,7 @@
   <footer class="footer"><p>© 2026 • Сделано с ❤️ и ☕</p></footer>
 
   <script>
-    const texts = ['Саша', 'Security Researcher', 'Pentester', 'Bug Hunter'];
+    const texts = ['Саша', 'Разработчик систем безопасности', 'Криптограф', 'Security Researcher'];
     let ti = 0, ci = 0, del = false;
     const typed = document.getElementById('typed');
     function type() {
